@@ -2,7 +2,11 @@
     "name": "node-red-canvas-project",
     "description": "A demonstration of using node-canvas with Node-RED",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-dashboard": "2.8.2",
+        "node-red-contrib-unsafe-function": "0.5.0",
+        "canvas": "2.0.0-alpha.11"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
